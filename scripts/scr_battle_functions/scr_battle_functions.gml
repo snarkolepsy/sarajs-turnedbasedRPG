@@ -1,7 +1,9 @@
-/// @function                       new_encounter(_enemies, _background);
-/// @param {string}  _enemies       ...
-/// @param {string}  _background    ...
-/// @description                    ...
+/// @function                                   new_encounter(_enemies, _background);
+/// @param {Array<Struct>}      _enemies        List of enemies
+/// @param {Asset.GMSprite}     _background     Sprite for the battle background
+/// @description                                Generates an instance of o_battle at the lowest depth 
+///                                             containing the set of enemies and the sprite of the 
+///                                             battle background.
 
 function new_encounter(_enemies, _background)
 {
