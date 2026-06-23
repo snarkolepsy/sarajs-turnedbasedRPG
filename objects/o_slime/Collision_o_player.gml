@@ -1,0 +1,1 @@
+new_encounter([global.enemies.slime_green, global.enemies.slime_green], s_background_field);

@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_slime",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_battle_unit_pc",
+  "eventList":[],
   "managed":true,
-  "name":"o_slime",
+  "name":"o_battle_unit_pc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Field",
-    "path":"folders/Objects/Field.yy",
+    "name":"Combat",
+    "path":"folders/Objects/Combat.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_battle_unit",
+    "path":"objects/o_battle_unit/o_battle_unit.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_slime",
-    "path":"sprites/s_slime/s_slime.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

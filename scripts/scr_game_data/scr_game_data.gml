@@ -5,9 +5,9 @@ global.party =
 	{
 		name: "Lulu",
 		hp: 89,
-		hpMax: 89,
+		hp_max: 89,
 		mp: 10,
-		mpMax: 15,
+		mp_max: 15,
 		strength: 6,
 		sprites :  
         {
@@ -22,9 +22,9 @@ global.party =
 	{
 		name: "Questy",
 		hp: 18,
-		hpMax: 44,
+		hp_max: 44,
 		mp: 20,
-		mpMax: 30,
+		mp_max: 30,
 		strength: 4,
 		sprites : 
         {
@@ -40,13 +40,13 @@ global.party =
 // Enemy Data
 global.enemies =
 {
-	slimeG: 
+	slime_green:
 	{
 		name: "Slime",
 		hp: 30,
-		hpMax: 30,
+		hp_max: 30,
 		mp: 0,
-		mpMax: 0,
+		mp_max: 0,
 		strength: 5,
 		sprites: 
         { 
@@ -55,9 +55,9 @@ global.enemies =
         },
 		actions: [],
 		xpValue : 15,
-		AIscript : function()
+		ai_script : function()
 		{
-			//enemy turn ai goes here
+			// enemy turn ai goes here
 		}
 	}
 	,
@@ -65,9 +65,9 @@ global.enemies =
 	{
 		name: "Bat",
 		hp: 15,
-		hpMax: 15,
+		hp_max: 15,
 		mp: 0,
-		mpMax: 0,
+		mp_max: 0,
 		strength: 4,
 		sprites: 
         {
@@ -75,10 +75,10 @@ global.enemies =
             attack: s_bat_attack
         },
 		actions: [],
-		xpValue : 18,
-		AIscript : function()
+		xp_value : 18,
+		ai_script : function()
 		{
-			//enemy turn ai goes here
+			// enemy turn ai goes here
 		}
 	}
 };
