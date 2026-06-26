@@ -53,6 +53,7 @@
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_slime","path":"objects/o_slime/o_slime.yy",},},
     {"id":{"name":"r_room1","path":"rooms/r_room1/r_room1.yy",},},
+    {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"scr_battle_functions","path":"scripts/scr_battle_functions/scr_battle_functions.yy",},},
     {"id":{"name":"scr_game_data","path":"scripts/scr_game_data/scr_game_data.yy",},},
     {"id":{"name":"s_attack_bonk","path":"sprites/s_attack_bonk/s_attack_bonk.yy",},},
